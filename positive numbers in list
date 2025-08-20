@@ -1,0 +1,18 @@
+l1=[12, -7, 5, 64, -14]
+l2 =  [12, 14, -95, 3]
+l3=[]
+l4=[]
+a = len(l1)
+b = len(l2)
+
+for i in range(0,a,1):
+    if(l1[i]>=0):
+       l3.append(l1[i])
+
+print(l3)
+
+for i in range(0,b,1):
+    if(l2[i]>=0):
+       l4.append(l2[i])
+
+print(l4)
